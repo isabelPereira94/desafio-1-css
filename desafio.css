@@ -78,3 +78,33 @@ p {
     cursor: pointer;
     background: transparent;
 }
+
+@media screen and (max-width: 900px) {
+    img {
+        margin-top: 50px;
+        margin-left: 0px;
+        display: inline-block;
+
+    }
+    div {
+        margin-left: 50px;
+        width: 493px;
+        display: inline-block
+    }
+    header {
+        margin-top: 47px;
+        margin-left: 42px;
+        width: 150%;
+    }
+    .menu {
+        color: #17233D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.875px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+}
